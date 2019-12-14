@@ -158,6 +158,9 @@ const App = () => {
         </div>
         <div className="form-group">
           <label>Code</label>
+          <label className="float-right">
+            {`${[...code].length} chars, ${new TextEncoder().encode(code).length} bytes (UTF-8)`}
+          </label>
           <textarea
             className="form-control text-monospace"
             rows={8}
