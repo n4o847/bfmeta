@@ -168,7 +168,7 @@ const App = () => {
             defaultValue={code}
             onInput={(e) => setCode(e.currentTarget.value)}
             disabled={!!instance}
-            placeholder="[>]<<<<<<<<<<<<[.>]Hello World!"
+            placeholder={'[>]<<<<<<<<<<<<<[.>]Hello World!\n'}
           ></textarea>
         </div>
         <div className="form-group">
